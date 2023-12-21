@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/png" href="https://cdn.smansixbo.sch.id/images/website/94fcb-tut-wuri-handayani.png">
+    <title>SMA Negeri 6 Bogor - Beranda</title>
+    <meta name="google-site-verification" content="i4eqE1ububkHneD26gpTqM-9rJRdhdbVe0fd6HiN30Y"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="SMA 6 Bogor, SMA Bogor, SMA Kota Bogor, SMA 6 Bogor, SMA Bogor, SMA Kota Bogor"/>
+    <meta name="description" content="Jln. Walet No. 13 Telp. / Fax 0251-8331732 Tanah Sareal"/>
+    <meta property="og:title" content="SMA Negeri 6 Bogor" name="title"/>
+    <meta property="og:image" content="https://cdn.smansixbo.sch.id/images/website/6a82c-logo.png" name="image"/>
+    <meta property="og:description" content="Jln. Walet No. 13 Telp. / Fax 0251-8331732 Tanah Sareal" name="description"/>
+    <link href="https://smansixbo.sch.id/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="https://smansixbo.sch.id/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <!--[if lt IE 9]> <script src="https://smansixbo.sch.id/assets/bootstrap/html5.js"></script> <![endif]-->
+    <link href="https://smansixbo.sch.id/assets/bootstrap/icons/general/stylesheets/general_foundicons.css" media="screen" rel="stylesheet" type="text/css"/>
+    <link href="https://smansixbo.sch.id/assets/bootstrap/icons/social/stylesheets/social_foundicons.css" media="screen" rel="stylesheet" type="text/css"/>
+    <!--[if lt IE 8]><link href="https://smansixbo.sch.id/assets/bootstrap/icons/general/stylesheets/general_foundicons_ie7.css" media="screen" rel="stylesheet" type="text/css" /><link href="https://smansixbo.sch.id/assets/bootstrap/icons/social/stylesheets/social_foundicons_ie7.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+    <link rel="stylesheet" href="https://smansixbo.sch.id/assets/bootstrap/fontawesome/css/font-awesome.min.css">
+    <!--[if IE 7]><link rel="stylesheet" href="https://smansixbo.sch.id/assets/bootstrap/fontawesome/css/font-awesome-ie7.min.css"><![endif]-->
+    <link href="https://smansixbo.sch.id/assets/bootstrap/wookmark/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://smansixbo.sch.id/assets/bootstrap/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css"/>
+    <link href="https://smansixbo.sch.id/assets/bootstrap/carousel/style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://smansixbo.sch.id/assets/bootstrap/camera/css/camera.css" rel="stylesheet" type="text/css"/>
+    <link href="https://smansixbo.sch.id/assets/bootstrap/custom.css" rel="stylesheet" type="text/css"/>
+    <script src="https://smansixbo.sch.id/assets/bootstrap/js/jquery-2.1.0.min.js"></script>
+    <script src="https://smansixbo.sch.id/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://smansixbo.sch.id/assets/bootstrap/js/jquery.bpopup.min.js"></script>
+    <script type="text/javascript">
+    ;
+    (function($) {
+        $(function() {
+            $('#link_login').bind('click', function(e) {
+                e.preventDefault();
+                $('#element_to_pop_up').bPopup({
+                    onOpen: function() {
+                        $('#element_to_pop_up #load_content').html('');
+                        $('#element_to_pop_up #loading_page').html("<div style='max-width: 410px;margin: 29px auto -12px;'><a href='#' style='color:white;text-decoration: none;'><div align='center'>Loading...</div></a></div>");
+                    },
+                    loadCallback: function() {
+                        $('#element_to_pop_up #load_content link').remove();
+                        $('#element_to_pop_up #loading_page').html("<div style='max-width: 410px;margin: 29px auto -12px;'><a href='#' style='color:white;text-decoration: none;'><div align='right'><img src='http://www.geni.com/images/x_close_large.png' style='width:44px;height:44px;'></div></a></div>");
+                        $('#element_to_pop_up #load_content #button_back_link').remove();
+                    },
+                    follow: [false, false],
+                    contentContainer: '#load_content',
+                    loadUrl: 'https://smansixbo.sch.id/login/aHR0cHM6Ly9zbWFuc2l4Ym8uc2NoLmlkL2hvbWU-'
+                });
+                $('#element_to_pop_up #loading_page').bind('click', function(e) {
+                    e.preventDefault();
+                    $('#element_to_pop_up').bPopup().close();
+                });
+            });
+        });
+    })(jQuery);
+    </script>
+    <script src="https://smansixbo.sch.id/assets/bootstrap/wookmark/js/jquery.wookmark.js" type="text/javascript"></script>
+    <script src="https://smansixbo.sch.id/assets/bootstrap/jquery.imagesloaded.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#tiles').imagesLoaded(function() {
+            var options = {
+                autoResize: true,
+                container: $('#gridArea'),
+                offset: 10
+            };
+            var handler = $('#tiles li');
+            handler.wookmark(options);
+        });
+    });
+    </script>
+    <script src="https://smansixbo.sch.id/assets/bootstrap/prettyphoto/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $("a[rel^='prettyPhoto']").prettyPhoto({
+            social_tools: false
+        });
+        $("a[rel^='prettyPhoto'] img").hover(function() {
+            $(this).animate({
+                opacity: 0.7
+            }, 300)
+        }, function() {
+            $(this).animate({
+                opacity: 1
+            }, 300)
+        });
+    });
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        var offset = 220;
+        var duration = 500;
+        jQuery(window).scroll(function() {
+            if (jQuery(this).scrollTop() > offset) {
+                jQuery('.back-to-top').fadeIn(duration);
+            } else {
+                jQuery('.back-to-top').fadeOut(duration);
+            }
+        });
+        jQuery('.back-to-top').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({
+                scrollTop: 0
+            }, duration);
+            return false;
+        });
+    });
+    </script>
+</head>
+<body id="pageBody">
+    <a href="https://smansixbo.sch.id/home" style='font-weight: bold;position: fixed; bottom: 5em; right: 0px; text-decoration: none; color: #fff; background-color: #7e9d31; font-size: 11px; padding: 0.5em; display: none;text-transform: uppercase;' class="back-to-top">Back to Top</a>
+    <div id="decorative2">
+        <div class="container">
+            <div class="divPanel topArea notop nobottom">
+                <div class="row-fluid">
+                    <div class="span12" style="max-width:100%">
+                        <div id="divLogo" class="pull-left">
+                            <a id="divSiteTitle" href="https://smansixbo.sch.id/">
+                                <img src="https://cdn.smansixbo.sch.id/images/website/6a82c-logo.png" alt="SMA Negeri 6 Bogor" style="padding: 0px;width: 60px;">
+                                 SMA Negeri 6 Bogor
+                            </a>
+                            </br>
+                            <a href="https://smansixbo.sch.id/" id="divTagLine">Jln. Walet No. 13 Telp. / Fax 0251-8331732 Tanah Sareal</a>
+                        </div>
+                        <div id="divMenuRight" class="pull-right">
+                            <div class="navbar">
+                                <button type="button" class="btn btn-navbar-highlight btn-large btn-primary" data-toggle="collapse" data-target=".nav-collapse">
+                                    NAVIGATION 
+                                    <span class="icon-chevron-down icon-white"></span>
+                                </button>
+                                <div class="nav-collapse collapse">
+                                    <ul class="nav nav-pills ddmenu">
+                                        <li class="dropdown active">
+                                            <a href="https://smansixbo.sch.id/home">Beranda</a>
+                                        </li>
+                                        <li class="hidden-desktop dropdown">
+                                            <a href="https://smansixbo.sch.id/category">Kategori</a>
+                                        </li>
+                                        <li class="hidden-desktop dropdown">
+                                            <a href="https://smansixbo.sch.id/gallery">Album Foto</a>
+                                        </li>
+                                        <li class="hidden-desktop dropdown">
+                                            <a href="https://smansixbo.sch.id/galleryall">Foto-Foto Terbaru</a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="https://smansixbo.sch.id/contact">Hubungi Kami</a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="https://smansixbo.sch.id/forum">Forum</a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="https://smansixbo.sch.id/login/aHR0cHM6Ly9zbWFuc2l4Ym8uc2NoLmlkL2hvbWU-" id='link_login' class="visible-desktop">Login</a>
+                                            <a href="https://smansixbo.sch.id/login/aHR0cHM6Ly9zbWFuc2l4Ym8uc2NoLmlkL2hvbWU-" class="hidden-desktop">Login</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container divPanel page-content">
+        <div class="row-fluid">
+            <div class="span9">
+                <div id="myCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="item active" ">
+                            <img src="https://cdn.smansixbo.sch.id/images/gallery/content/original/94bae-add-a-heading-4-.png" height="576px" style="width:100%;max-width:100%;max-height:576px;" alt="Fasilitas SMA Negeri 6 Kota Bogor">
+                            <div class="carousel-caption">
+                                <h4>Fasilitas SMA Negeri 6 Kota Bogor</h4>
+                                <p>Fasilitas-fasilitas yang berada di lingkungan SMA Negeri 6 Kota Bogor</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://cdn.smansixbo.sch.id/images/gallery/content/original/b5b5a-add-a-heading-2-.png" height="576px" style="width:100%;max-width:100%;max-height:576px;" alt="SMA NEGERI 6 BOGOR">
+                            <div class="carousel-caption">
+                                <h4>SMA Negeri 6 Kota Bogor</h4>
+                                <p>Kondisi Sekolah</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                </div>
+                <div id="gridArea" class="visible-desktop">
+                    <ul id="tiles">
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/138/sma-negeri-6-kota-bogor" style="font-size:15px;">SMA Negeri 6 Kota Bogor</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>4 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="SMA Negeri 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/b43d3-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                UPACARA MEMPERINGATI HUT RI KE 74
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/137/sma-negeri-6-kota-bogor" style="font-size:15px;">SMA Negeri 6 Kota Bogor</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>4 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="SMA Negeri 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/3091e-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                Kegiatan PTA 2019
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/135/sma-negeri-6-kota-bogor" style="font-size:15px;">SMA Negeri 6 Kota Bogor</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>4 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="SMA Negeri 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/c6587-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                Kegiatan MPLS Tahun Pelajaran 2019/2020
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/133/kegiatan-halal-bihalal-keluarga-besar-sman-6-kota-bogor" style="font-size:15px;">Kegiatan Halal Bihalal Keluarga Besar SMAN 6 Kota Bogor</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>4 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Kegiatan Halal Bihalal Keluarga Besar SMAN 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/d9841-logo-enam-transparan-copy.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                Tanggal 10 Juni 2019 /  6 Syawal 1440 H
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/134/download-formulir-pendaftaran" style="font-size:15px;">Download formulir pendaftaran</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>4 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Download formulir pendaftaran" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/7f5a9-logo-enam-transparan-copy.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                PPDB Tahun 2019
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/129/siswa-sma-n-bogor-menjadi-tim-paduan-suara-dlm-upacara-hardiknas-di-lapangan-sempur-pd-hr-kamis-tgl-2-mei-2019" style="font-size:15px;">Siswa SMA N Bogor menjadi Tim Paduan Suara dlm Upacara Hardiknas di Lapangan Sempur pd hr Kamis tgl 2 Mei 2019</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>4 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Siswa SMA N Bogor menjadi Tim Paduan Suara dlm Upacara Hardiknas di Lapangan Sempur pd hr Kamis tgl 2 Mei 2019" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/8c7c9-logo-enam-transparan-copy.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/128/perayaan-paskah-siswa-kristen-sma-n-6-bogor-pd-hr-selasa-tgl-30-april-2019" style="font-size:15px;">Perayaan Paskah Siswa Kristen SMA N 6 Bogor pd hr Selasa tgl 30 April 2019</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>4 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Perayaan Paskah Siswa Kristen SMA N 6 Bogor pd hr Selasa tgl 30 April 2019" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/be59a-logo-enam-transparan-copy.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/130/teti-novianti-s-pd-m-si-juara-ii-guru-berprestasi-tingkat-cadisdik-wil-ii-disdik-prov-jabar-thn-2019" style="font-size:15px;">Teti Novianti, S.Pd., M.Si. Juara II Guru Berprestasi tingkat Cadisdik Wil II Disdik Prov. Jabar Thn 2019</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>4 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Teti Novianti, S.Pd., M.Si. Juara II Guru Berprestasi tingkat Cadisdik Wil II Disdik Prov. Jabar Thn 2019" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/cb394-logo-enam-transparan-copy.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/125/pembukaan-dan-kegiatan-fentura-2018" style="font-size:15px;">Pembukaan dan Kegiatan Fentura 2018</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Pembukaan dan Kegiatan Fentura 2018" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/27986-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/122/smansix-education" style="font-size:15px;">SMANSIX EDUCATION</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="SMANSIX EDUCATION" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/6097d-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/124/smansix-education-2018" style="font-size:15px;">SMANSIX EDUCATION 2018</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="SMANSIX EDUCATION 2018" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/6097d-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/123/smansix-education" style="font-size:15px;">SMANSIX EDUCATION</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="SMANSIX EDUCATION" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/6097d-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/121/orasi-kampanye-dan-debat-calon-ketua-osis-2018-2019" style="font-size:15px;">Orasi, Kampanye  dan Debat Calon Ketua OSIS 2018/2019</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Orasi, Kampanye  dan Debat Calon Ketua OSIS 2018/2019" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/35057-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/120/upacara-bendera-sma-n-6-kota-bogor-dlm-rangka-memperingati-hari-santri-nasional" style="font-size:15px;">Upacara Bendera SMA N 6 Kota Bogor dlm rangka memperingati hari Santri Nasional</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Upacara Bendera SMA N 6 Kota Bogor dlm rangka memperingati hari Santri Nasional" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/71e0a-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/119/pembukaan-lkbb-smaction-di-sma-negeri-6-kota-bogor-pd-hr-sabtu-tgl-20-oktober-2018" style="font-size:15px;">Pembukaan LKBB SMACTION di SMA Negeri 6 Kota Bogor pd hr Sabtu tgl 20 Oktober 2018.</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Pembukaan LKBB SMACTION di SMA Negeri 6 Kota Bogor pd hr Sabtu tgl 20 Oktober 2018." src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/98f89-gabung-2.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/111/memperingati-hari-batik-nasional" style="font-size:15px;">Memperingati Hari Batik Nasional</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Memperingati Hari Batik Nasional" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/205cd-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/114/lomba-fls2n-tingkat-provinsi" style="font-size:15px;">Lomba FLS2N tingkat Provinsi</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Lomba FLS2N tingkat Provinsi" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/54d5c-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/113/upacara-memperingati-hari-kesaktian-pancasila" style="font-size:15px;">Upacara memperingati Hari Kesaktian Pancasila</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Upacara memperingati Hari Kesaktian Pancasila" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/06ef4-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/112/kegiatan-pembinaan-pasca-ehb-2-ditpsma" style="font-size:15px;">Kegiatan Pembinaan Pasca EHB 2 DitPSMA</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Kegiatan Pembinaan Pasca EHB 2 DitPSMA" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/e3b18-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/118/memperingati-tanggal-10-muharam-1440-h" style="font-size:15px;">Memperingati  Tanggal 10 Muharam 1440 H</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Memperingati  Tanggal 10 Muharam 1440 H" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/f22bf-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/116/ekskul-sparkling-sma-6-kota-bogor" style="font-size:15px;">Ekskul "Sparkling" SMA 6 Kota Bogor</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Ekskul " Sparkling" SMA 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/3afd5-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/115/lomba-sofball-tingkat-nasional-di-kendari" style="font-size:15px;">Lomba Sofball tingkat Nasional di Kendari,</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Lomba Sofball tingkat Nasional di Kendari," src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/35e69-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/117/panitia-perpisahan-alumni-sma-6-tahun-pelajaran-2017-2018" style="font-size:15px;">Panitia Perpisahan Alumni SMA 6 Tahun Pelajaran 2017/2018</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Panitia Perpisahan Alumni SMA 6 Tahun Pelajaran 2017/2018" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/bdf18-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/110/hasil-monev-pmr" style="font-size:15px;">Hasil Monev PMR</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Hasil Monev PMR" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/b57ce-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/109/taekwondo-popnas-kapolri-2018" style="font-size:15px;">Taekwondo POPNAS KAPOLRI 2018</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Taekwondo POPNAS KAPOLRI 2018" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/27a6f-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/108/kegiatan-jumsih" style="font-size:15px;">Kegiatan Jumsih</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Kegiatan Jumsih" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/0fb45-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/107/pelatihan-pemanfaatan-kalkulator-saintifik-untuk-guru-matematika" style="font-size:15px;">Pelatihan Pemanfaatan Kalkulator Saintifik untuk Guru Matematika</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Pelatihan Pemanfaatan Kalkulator Saintifik untuk Guru Matematika" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/7ad10-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/106/sholat-duha-bersama" style="font-size:15px;">Sholat Duha Bersama</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Sholat Duha Bersama" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/dfc66-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/105/morning-greeting" style="font-size:15px;">Morning Greeting</a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Morning Greeting" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/6f809-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                        <li>
+                            <a href="https://smansixbo.sch.id/read/104/kegiatan-donor-darah-yg-diprakarsai-kwarcab-kota-bogor" style="font-size:15px;">Kegiatan Donor Darah yg diprakarsai Kwarcab Kota Bogor </a>
+                            <div class="meta" style="padding-bottom: 10px;">
+                                <span>5 years ago</span>
+                                <span class="pull-right">posted by : Administrator</span>
+                            </div>
+                            <p>
+                                <img alt="Kegiatan Donor Darah yg diprakarsai Kwarcab Kota Bogor " src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/233ae-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius:50%;" align="middle"/>
+                                SMA Negeri 6 Kota Bogor
+                            </p>
+                            <div style="clear: both;"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row-fluid hidden-desktop" style="display:none;">
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/138/sma-negeri-6-kota-bogor" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">SMA Negeri 6 Kota Bogor</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>4 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="SMA Negeri 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/b43d3-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            UPACARA MEMPERINGATI HUT RI KE 74
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/137/sma-negeri-6-kota-bogor" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">SMA Negeri 6 Kota Bogor</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>4 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="SMA Negeri 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/3091e-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            Kegiatan PTA 2019
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/135/sma-negeri-6-kota-bogor" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">SMA Negeri 6 Kota Bogor</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>4 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="SMA Negeri 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/c6587-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            Kegiatan MPLS Tahun Pelajaran 2019/2020
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/133/kegiatan-halal-bihalal-keluarga-besar-sman-6-kota-bogor" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Kegiatan Halal Bihalal Keluarga Besar SMAN 6 Kota Bogor</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>4 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Kegiatan Halal Bihalal Keluarga Besar SMAN 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/d9841-logo-enam-transparan-copy.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            Tanggal 10 Juni 2019 /  6 Syawal 1440 H
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/134/download-formulir-pendaftaran" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Download formulir pendaftaran</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>4 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Download formulir pendaftaran" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/7f5a9-logo-enam-transparan-copy.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            PPDB Tahun 2019
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/129/siswa-sma-n-bogor-menjadi-tim-paduan-suara-dlm-upacara-hardiknas-di-lapangan-sempur-pd-hr-kamis-tgl-2-mei-2019" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Siswa SMA N Bogor menjadi Tim Paduan Suara dlm Upacara Hardiknas di Lapangan Sempur pd hr Kamis tgl 2 Mei 2019</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>4 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Siswa SMA N Bogor menjadi Tim Paduan Suara dlm Upacara Hardiknas di Lapangan Sempur pd hr Kamis tgl 2 Mei 2019" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/8c7c9-logo-enam-transparan-copy.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/128/perayaan-paskah-siswa-kristen-sma-n-6-bogor-pd-hr-selasa-tgl-30-april-2019" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Perayaan Paskah Siswa Kristen SMA N 6 Bogor pd hr Selasa tgl 30 April 2019</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>4 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Perayaan Paskah Siswa Kristen SMA N 6 Bogor pd hr Selasa tgl 30 April 2019" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/be59a-logo-enam-transparan-copy.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/130/teti-novianti-s-pd-m-si-juara-ii-guru-berprestasi-tingkat-cadisdik-wil-ii-disdik-prov-jabar-thn-2019" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Teti Novianti, S.Pd., M.Si. Juara II Guru Berprestasi tingkat Cadisdik Wil II Disdik Prov. Jabar Thn 2019</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>4 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Teti Novianti, S.Pd., M.Si. Juara II Guru Berprestasi tingkat Cadisdik Wil II Disdik Prov. Jabar Thn 2019" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/cb394-logo-enam-transparan-copy.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/125/pembukaan-dan-kegiatan-fentura-2018" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Pembukaan dan Kegiatan Fentura 2018</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Pembukaan dan Kegiatan Fentura 2018" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/27986-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/122/smansix-education" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">SMANSIX EDUCATION</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="SMANSIX EDUCATION" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/6097d-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/124/smansix-education-2018" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">SMANSIX EDUCATION 2018</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="SMANSIX EDUCATION 2018" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/6097d-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/123/smansix-education" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">SMANSIX EDUCATION</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="SMANSIX EDUCATION" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/6097d-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/121/orasi-kampanye-dan-debat-calon-ketua-osis-2018-2019" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Orasi, Kampanye  dan Debat Calon Ketua OSIS 2018/2019</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Orasi, Kampanye  dan Debat Calon Ketua OSIS 2018/2019" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/35057-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/120/upacara-bendera-sma-n-6-kota-bogor-dlm-rangka-memperingati-hari-santri-nasional" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Upacara Bendera SMA N 6 Kota Bogor dlm rangka memperingati hari Santri Nasional</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Upacara Bendera SMA N 6 Kota Bogor dlm rangka memperingati hari Santri Nasional" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/71e0a-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/119/pembukaan-lkbb-smaction-di-sma-negeri-6-kota-bogor-pd-hr-sabtu-tgl-20-oktober-2018" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Pembukaan LKBB SMACTION di SMA Negeri 6 Kota Bogor pd hr Sabtu tgl 20 Oktober 2018.</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Pembukaan LKBB SMACTION di SMA Negeri 6 Kota Bogor pd hr Sabtu tgl 20 Oktober 2018." src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/98f89-gabung-2.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/111/memperingati-hari-batik-nasional" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Memperingati Hari Batik Nasional</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Memperingati Hari Batik Nasional" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/205cd-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/114/lomba-fls2n-tingkat-provinsi" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Lomba FLS2N tingkat Provinsi</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Lomba FLS2N tingkat Provinsi" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/54d5c-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/113/upacara-memperingati-hari-kesaktian-pancasila" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Upacara memperingati Hari Kesaktian Pancasila</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Upacara memperingati Hari Kesaktian Pancasila" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/06ef4-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/112/kegiatan-pembinaan-pasca-ehb-2-ditpsma" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Kegiatan Pembinaan Pasca EHB 2 DitPSMA</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Kegiatan Pembinaan Pasca EHB 2 DitPSMA" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/e3b18-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/118/memperingati-tanggal-10-muharam-1440-h" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Memperingati  Tanggal 10 Muharam 1440 H</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Memperingati  Tanggal 10 Muharam 1440 H" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/f22bf-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/116/ekskul-sparkling-sma-6-kota-bogor" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Ekskul "Sparkling" SMA 6 Kota Bogor</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Ekskul " Sparkling" SMA 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/3afd5-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/115/lomba-sofball-tingkat-nasional-di-kendari" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Lomba Sofball tingkat Nasional di Kendari,</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Lomba Sofball tingkat Nasional di Kendari," src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/35e69-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/117/panitia-perpisahan-alumni-sma-6-tahun-pelajaran-2017-2018" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Panitia Perpisahan Alumni SMA 6 Tahun Pelajaran 2017/2018</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Panitia Perpisahan Alumni SMA 6 Tahun Pelajaran 2017/2018" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/bdf18-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/110/hasil-monev-pmr" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Hasil Monev PMR</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Hasil Monev PMR" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/b57ce-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/109/taekwondo-popnas-kapolri-2018" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Taekwondo POPNAS KAPOLRI 2018</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Taekwondo POPNAS KAPOLRI 2018" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/27a6f-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/108/kegiatan-jumsih" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Kegiatan Jumsih</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Kegiatan Jumsih" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/0fb45-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/107/pelatihan-pemanfaatan-kalkulator-saintifik-untuk-guru-matematika" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Pelatihan Pemanfaatan Kalkulator Saintifik untuk Guru Matematika</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Pelatihan Pemanfaatan Kalkulator Saintifik untuk Guru Matematika" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/7ad10-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/106/sholat-duha-bersama" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Sholat Duha Bersama</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Sholat Duha Bersama" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/dfc66-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/105/morning-greeting" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Morning Greeting</a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Morning Greeting" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/6f809-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div id="myContent" class="span4" style="border: 1px solid #dedede;padding: 10px;border-radius: 2px;margin-bottom: 22px;">
+                        <a href="https://smansixbo.sch.id/read/104/kegiatan-donor-darah-yg-diprakarsai-kwarcab-kota-bogor" style="line-height:inherit;margin:0;text-decoration:inherit;color:inherit;font-size:inherit;font-family:inherit;font-weight:inherit;font-style:inherit">Kegiatan Donor Darah yg diprakarsai Kwarcab Kota Bogor </a>
+                        <div class="meta" style="color:#999;text-transform:uppercase;font-size:10px;margin-bottom:10px;">
+                            <span>5 years ago</span>
+                            <span class="pull-right">posted by : Administrator</span>
+                        </div>
+                        <p>
+                            <img alt="Kegiatan Donor Darah yg diprakarsai Kwarcab Kota Bogor " src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/233ae-logo-sman6.jpg" style="width: 74px; height: 74px; float: left; margin-right:10px;border-radius: 50%;" align="middle"/>
+                            SMA Negeri 6 Kota Bogor
+                        </p>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <div class="pagination pagination-centered">
+                    <ul>
+                        <li class="active">
+                            <a href="">1</a>
+                        </li>
+                        <li class="page">
+                            <a href="https://smansixbo.sch.id/home/page/30" data-ci-pagination-page="2">2</a>
+                        </li>
+                        <li class="page">
+                            <a href="https://smansixbo.sch.id/home/page/60" data-ci-pagination-page="3">3</a>
+                        </li>
+                        <li class="next page">
+                            <a href="https://smansixbo.sch.id/home/page/30" data-ci-pagination-page="2" rel="next">Next &rarr;</a>
+                        </li>
+                        <li class="next page">
+                            <a href="https://smansixbo.sch.id/home/page/90" data-ci-pagination-page="4">Last &raquo;</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="span3">
+                <div class="visible-desktop">
+                    <form class="navbar-form" style="padding: 12px;" action="https://smansixbo.sch.id/find" method="get" align="right">
+                        <input class="search-query" id='find' name='find' type="text" placeholder="Pencarian" style="width:62%; margin-left: -4px;margin-right: 5px;max-width:62%;">
+                        <button type="submit" class="btn btn-primary" style="margin-top:3px;">
+                            <span class="icon-search"></span>
+                        </button>
+                    </form>
+                    <div class="sidebar-nav">
+                        <ul class="well nav nav-list">
+                            <li class="nav-header" align="center">Kepala Sekolah</li>
+                            <img alt="SMA Negeri 6 Bogor" src="https://cdn.smansixbo.sch.id/images/sekolah/f0a3a-website001.jpg" style="width:100%;margin-top:5px;margin-bottom:5px;"/>
+                            <li align="center" style="font-size: 12px;">H. DENTY DENTRIJADI, S.Pd., MM.</li>
+                            <li align="center" style="font-size: 12px;">NIP : NIP. 196612131988121001</li>
+                            <li class="nav-header">Agenda Sekolah</li>
+                            <li style="overflow:hidden;height: 33px;line-height: 40px;">
+                                <a href="https://smansixbo.sch.id/read/62/agenda-akademik-akhir-tahun-2015-2016">
+                                    <img alt="Agenda Akademik Akhir Tahun 2015 - 2016" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/5f93c-agenda-sekolah.jpg" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      Agenda Akademik Akhir Tahun 2015 - 2016
+                                </a>
+                            </li>
+                            <li style="overflow:hidden;height: 33px;line-height: 40px;">
+                                <a href="https://smansixbo.sch.id/read/45/kalender-pendidikan">
+                                    <img alt="Kalender Pendidikan" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/da37348f99a76bdd46d7df487c07ba01.jpg" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      Kalender Pendidikan
+                                </a>
+                            </li>
+                            <li style="overflow:hidden;height: 33px;line-height: 40px;">
+                                <a href="https://smansixbo.sch.id/read/23/kalender-akademik-2014-2015">
+                                    <img alt="Kalender Akademik 2014-2015" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/2859f448f46edbed1b6de48068b0d485.jpg" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      Kalender Akademik 2014-2015
+                                </a>
+                            </li>
+                            <li style="overflow:hidden;height: 33px;line-height: 40px;">
+                                <a href="https://smansixbo.sch.id/read/18/agenda-sekolah">
+                                    <img alt="Agenda Sekolah" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/567182fdc8d8e717b6a35bb7057012cf.jpg" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      Agenda Sekolah
+                                </a>
+                            </li>
+                            <li class="nav-header">Berita Sekolah</li>
+                            <li style="overflow:hidden;height: 33px;line-height: 40px;">
+                                <a href="https://smansixbo.sch.id/read/138/sma-negeri-6-kota-bogor">
+                                    <img alt="SMA Negeri 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/b43d3-logo-sman6.jpg" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      SMA Negeri 6 Kota Bogor
+                                </a>
+                            </li>
+                            <li style="overflow:hidden;height: 33px;line-height: 40px;">
+                                <a href="https://smansixbo.sch.id/read/137/sma-negeri-6-kota-bogor">
+                                    <img alt="SMA Negeri 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/3091e-logo-sman6.jpg" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      SMA Negeri 6 Kota Bogor
+                                </a>
+                            </li>
+                            <li style="overflow:hidden;height: 33px;line-height: 40px;">
+                                <a href="https://smansixbo.sch.id/read/135/sma-negeri-6-kota-bogor">
+                                    <img alt="SMA Negeri 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/c6587-logo-sman6.jpg" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      SMA Negeri 6 Kota Bogor
+                                </a>
+                            </li>
+                            <li style="overflow:hidden;height: 33px;line-height: 40px;">
+                                <a href="https://smansixbo.sch.id/read/133/kegiatan-halal-bihalal-keluarga-besar-sman-6-kota-bogor">
+                                    <img alt="Kegiatan Halal Bihalal Keluarga Besar SMAN 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/d9841-logo-enam-transparan-copy.jpg" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      Kegiatan Halal Bihalal Keluarga Besar SMAN 6 Kota Bogor
+                                </a>
+                            </li>
+                            <li style="overflow:hidden;height: 33px;line-height: 40px;">
+                                <a href="https://smansixbo.sch.id/read/134/download-formulir-pendaftaran">
+                                    <img alt="Download formulir pendaftaran" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/7f5a9-logo-enam-transparan-copy.jpg" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      Download formulir pendaftaran
+                                </a>
+                            </li>
+                            <li align="center">
+                                <a href="https://smansixbo.sch.id/category/1/berita-sekolah">Show More</a>
+                            </li>
+                            <li class="nav-header">Materi Pembelajaran</li>
+                            <li style="overflow:hidden;height: 33px;line-height: 40px;">
+                                <a href="https://smansixbo.sch.id/read/24/kisi-kisi-ulangan-tik-coreldraw">
+                                    <img alt="Kisi-Kisi Ulangan TIK (CORELDRAW)" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/63a29-corel_draw.png" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      Kisi-Kisi Ulangan TIK (CORELDRAW)
+                                </a>
+                            </li>
+                            <li style="overflow:hidden;height: 33px;line-height: 40px;">
+                                <a href="https://smansixbo.sch.id/read/22/modul-corel-draw">
+                                    <img alt="Modul Corel Draw" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/876de-corel_draw.png" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      Modul Corel Draw
+                                </a>
+                            </li>
+                            <li class="nav-header">Prestasi SMA Negeri 6 Bogor</li>
+                            <li style="overflow:hidden;height: 33px;line-height: 40px;">
+                                <a href="https://smansixbo.sch.id/read/120/upacara-bendera-sma-n-6-kota-bogor-dlm-rangka-memperingati-hari-santri-nasional">
+                                    <img alt="Upacara Bendera SMA N 6 Kota Bogor dlm rangka memperingati hari Santri Nasional" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/71e0a-logo-sman6.jpg" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      Upacara Bendera SMA N 6 Kota Bogor dlm rangka memperingati hari Santri Nasional
+                                </a>
+                            </li>
+                            <li style="overflow:hidden;height: 33px;line-height: 40px;">
+                                <a href="https://smansixbo.sch.id/read/62/agenda-akademik-akhir-tahun-2015-2016">
+                                    <img alt="Agenda Akademik Akhir Tahun 2015 - 2016" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/5f93c-agenda-sekolah.jpg" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      Agenda Akademik Akhir Tahun 2015 - 2016
+                                </a>
+                            </li>
+                            <li class="nav-header">PROFIL TENAGA PENDIDIK</li>
+                            <li style="overflow:hidden;height: 33px;line-height: 40px;">
+                                <a href="https://smansixbo.sch.id/read/44/profil-tenaga-pendidik">
+                                    <img alt="PROFIL TENAGA PENDIDIK" src="https://cdn.smansixbo.sch.id/images/news/content/thumbnail/a44f9fcbfaad9f35c32c86f6ef6c4a92.png" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      PROFIL TENAGA PENDIDIK
+                                </a>
+                            </li>
+                            <li class="nav-header">Kategori</li>
+                            <li style="overflow:hidden;height: 33px;line-height: 42px;">
+                                <a href="https://smansixbo.sch.id/category/3/ppdb-2022-2023">
+                                    <img alt="PPDB 2022/2023" src="https://cdn.smansixbo.sch.id/images/news/category/66cec-ppdb.png" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      PPDB 2022/2023 (2)
+                                </a>
+                            </li>
+                            <li class="nav-header">Album Foto</li>
+                            <li style="overflow:hidden;height: 33px;line-height: 42px;">
+                                <a href="https://smansixbo.sch.id/gallery/4/kegiatan-upacara-di-sma-negeri-6-bogor">
+                                    <img alt="Kegiatan Upacara di SMA Negeri 6 Bogor" src="https://cdn.smansixbo.sch.id/images/gallery/category/bae67-upacara.png" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      Kegiatan Upacara di SMA Negeri 6 Bogor (8)
+                                </a>
+                            </li>
+                            <li style="overflow:hidden;height: 33px;line-height: 42px;">
+                                <a href="https://smansixbo.sch.id/gallery/5/siswa-sma-negeri-6-bogor">
+                                    <img alt="Siswa SMA Negeri 6 Bogor" src="https://cdn.smansixbo.sch.id/images/gallery/category/abbfe-img-20160502-wa0005.jpg" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      Siswa SMA Negeri 6 Bogor (26)
+                                </a>
+                            </li>
+                            <li class="nav-header">Foto-Foto Terbaru</li>
+                            <li style="overflow:hidden;height: 33px;line-height: 42px;">
+                                <a href="https://smansixbo.sch.id/picture/8/fasilitas-sma-negeri-6-kota-bogor">
+                                    <img alt="Fasilitas SMA Negeri 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/gallery/content/thumbnail/94bae-add-a-heading-4-.png" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      Fasilitas SMA Negeri 6 Kota Bogor
+                                </a>
+                            </li>
+                            <li style="overflow:hidden;height: 33px;line-height: 42px;">
+                                <a href="https://smansixbo.sch.id/picture/34/sma-negeri-6-kota-bogor">
+                                    <img alt="SMA Negeri 6 Kota Bogor" src="https://cdn.smansixbo.sch.id/images/gallery/content/thumbnail/b5b5a-add-a-heading-2-.png" style="width:38px; height:28px; float: left; padding-left:5px;padding-right:5px;border-radius: 50%;"/>
+                                      SMA Negeri 6 Kota Bogor
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contentOuterSeparator"></div>
+    </div>
+    <div id="element_to_pop_up" style="display: none;">
+        <div id='loading_page'>
+            <div style='max-width: 410px;margin: 29px auto -12px;'>
+                <a href='#' style='color:white;text-decoration: none;'>
+                    <div align='center'>Loading...</div>
+                </a>
+            </div>
+        </div>
+        <div id="load_content"></div>
+    </div>
+    <div id="divFooter" class="page-content footer navbar-bottom">
+        <div class="container">
+            <div class="divPanel">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <p class="social_bookmarks">
+                            <a href="https://id-id.facebook.com/pages/SMAN-6-BOGOR/68038711864" target="_blank;">
+                                <i class="social foundicon-facebook"></i>
+                                 Facebook
+                            </a>
+                            <a href="https://twitter.com/semau_6ue" target="_blank;">
+                                <i class="social foundicon-twitter"></i>
+                                 Twitter
+                            </a>
+                            <a href="https://foursquare.com/v/sma-negeri-6-kota-bogor/4f7a4d5fe4b01c9eb341000f" target="_blank;">
+                                <i class="social foundicon-foursquare"></i>
+                                 Foursquare
+                            </a>
+                        </p>
+                        <p>
+                        <p>
+                             														 | 
+                            <a href="https://smansixbo.sch.id/tos">Aturan Penggunaan Website</a>
+                            							 | 
+                            <a href="https://smansixbo.sch.id/privacy">Kebijakan Penggunaan Website</a>
+                            							 | 
+                            <a href="https://smansixbo.sch.id/contact">Hubungi Kami</a>
+                             |
+                        </p>
+                        <p class="copyright">
+                        <p>
+                            Copyright &copy; 2014&nbsp;
+                            <span style="color: rgb(51, 51, 51); font-family: Arial; text-align: center;">SMA Negeri 6 Kota Bogor. All Rights Reserved.</span>
+                        </p>
+                        </p>
+                    </div>
+                </div>
+                <br/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+(function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+    },
+    i[r].l = 1 * new Date();
+    a = s.createElement(o),
+    m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+ga('create', 'UA-51169187-1', 'smansixbo.sch.id');
+ga('send', 'pageview');
+</script>
